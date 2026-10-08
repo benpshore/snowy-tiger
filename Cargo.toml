@@ -1,0 +1,10 @@
+[package]
+name = "snowy-tiger"
+version = "0.1.0"
+edition = "2024"
+description = "snowy-tiger"
+
+[dependencies]
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
